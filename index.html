@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will you be my valentine...</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container"></div>
+    
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Envelope Section -->
+        <div class="envelope-section" id="envelopeSection">
+            <!-- Simple Clean Teddy Bear -->
+            <div class="simple-teddy-container">
+                <!-- <div class="floating-mini-hearts">
+                    <span class="mini-heart-1">💕</span>
+                    <span class="mini-heart-2">💖</span>
+                </div> -->
+                <div class="simple-teddy">🧸</div>
+                <!-- <div class="teddy-love-heart">💖</div> -->
+            </div>
+            
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body"></div>
+            </div>
+            
+            <div class="ready-text">
+                <p class="flashing-text">Warning: opening this may cause butterflies 🦋</p>
+                <p class="instruction-text">Click on Envelope to open it gently 💌</p>
+            </div>
+        </div>
+        
+        <!-- Question Section (Initially Hidden) -->
+        <div class="question-section" id="questionSection">
+            <div class="question-card">
+                <!-- Small Dancing Teddy -->
+                <div class="small-teddy">
+                    <div class="small-teddy-face">🧸</div>
+                    <div class="love-bubbles">
+                        <span>💕</span>
+                        <span>💖</span>
+                        <span>💕</span>
+                    </div>
+                </div>
+                
+                <div class="question-text" id="questionText"></div>
+                
+                <div class="buttons-container" id="buttonsContainer">
+                    <button class="btn yes-btn" id="yesBtn">YES! 💕</button>
+                    <button class="btn no-btn" id="noBtn">No</button>
+                </div>
+                
+                <div class="hint-text">
+                    <p>"NO" is that an option? Try clicking it 😏</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Success Section (Initially Hidden) -->
+        <div class="success-section" id="successSection">
+            <div class="success-card">
+                <h1 class="success-title">🎉 YAYYY! 🎉</h1>
+                <p class="success-text">Officially My Valentine Now 💖</p>
+                <p class="success-subtitle">Happy Valentine's Day! 🌹</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Confetti Container -->
+    <div class="confetti-container" id="confettiContainer"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
