@@ -84,11 +84,13 @@ body {
 }
 
 .simple-teddy {
-    font-size: 100px;
+    width: 110px;
+    height: 110px;
     animation: gentleBounce 2.5s ease-in-out infinite;
     display: block;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
     transition: transform 0.3s ease;
+    object-fit: contain;
 }
 
 .simple-teddy:hover {
@@ -136,9 +138,11 @@ body {
 }
 
 .small-teddy-face {
-    font-size: 60px;
+    width: 60px;
+    height: 60px;
     animation: teddyDance 1.5s ease-in-out infinite;
     display: inline-block;
+    object-fit: contain;
 }
 
 .love-bubbles {
@@ -656,7 +660,8 @@ body {
     
     /* Mobile Teddy Adjustments */
     .simple-teddy {
-        font-size: 90px;
+        width: 90px;
+        height: 90px;
     }
     
     .teddy-love-heart {
@@ -670,7 +675,8 @@ body {
     }
     
     .small-teddy-face {
-        font-size: 45px;
+        width: 45px;
+        height: 45px;
     }
     
     /* Mobile Text Adjustments */
